@@ -1,5 +1,5 @@
 <?php
-$a
+$a = 74;
  ?>
 <!DOCTYPE html>
 <html lang="ru">
@@ -12,7 +12,8 @@ $a
 <body>
     <h1>Hello World! HTML</h1>
     <?php
-    echo "Hello World! PHP<br><br>" . date(h, m, Y);
+    echo "Hello World! PHP<br><br>" . date(h, m, Y) . '<br>';
+    echo $a;
      ?>
 </body>
 </html>
